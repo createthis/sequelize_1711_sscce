@@ -1,0 +1,27 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "node": "current"
+        },
+      },
+    ],
+    "@babel/react"
+  ],
+  "plugins": [
+    "add-module-exports",
+    "@babel/plugin-proposal-object-rest-spread",
+    "babel-plugin-root-import",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-private-methods"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "css-modules-transform",
+      ]
+    }
+  }
+}
