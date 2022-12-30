@@ -27,7 +27,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0"
   },
   "devDependencies": {
-    "mocha": "^6.2.1"
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "test": "NODE_ENV=test node_modules/.bin/mocha --exit --timeout 40000 --full-trace --require @babel/register"
